@@ -1,0 +1,12 @@
+.Team{
+    width: 100%;
+    margin-top: 100px;
+    border: 2px solid red;
+    background-image: url("../../../assets/teamNews.png");
+    height: 500px;
+}
+.Text{
+    border: 2px solid red;
+    position: absolute;
+    margin-top: -5rem;
+}

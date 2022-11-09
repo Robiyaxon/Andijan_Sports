@@ -1,0 +1,32 @@
+
+.NewsHeader{
+    margin-top: 40px;
+  display: flex;
+  justify-content: space-between; 
+  padding: 20px 100px; 
+  background-image:url("../../assets/bacgroundNews.png") ;
+  background-repeat: no-repeat;
+  background-position: right;
+  flex-wrap: wrap;
+}
+.Block__1{
+    width: 50%;
+}
+.Block__1 img{
+    width: 100%;
+}
+.Block__2{
+    width: 50%;
+    padding: 20px;
+    background-image: url("../../assets/news2.png");
+}
+.Block__2 h1{
+    
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 46.8083px;
+line-height: 68px;
+
+color: #000000;
+}
