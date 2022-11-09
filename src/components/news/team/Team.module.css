@@ -1,12 +1,47 @@
-.Team{
+.Team {
     width: 100%;
     margin-top: 100px;
-    border: 2px solid red;
     background-image: url("../../../assets/teamNews.png");
     height: 500px;
+    display: flex;
+    justify-content:center;
+    padding: 120px;
+    flex-wrap: wrap;
 }
-.Text{
-    border: 2px solid red;
+
+.Text {
+    background: #FFFFFF;
+    border-radius: 5px;
     position: absolute;
-    margin-top: -5rem;
+    z-index: 1;
+    margin: 0 auto;
+    height: 63.74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 308.41px;
+    margin-top: 17rem;
+}
+
+.Text h1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+
+.Blog__1 {
+    width: 33%;
+    display: grid;
+    justify-items: center;
+}
+
+.Blog__1 img {
+    position: relative;
+
+    width: 100%;
 }

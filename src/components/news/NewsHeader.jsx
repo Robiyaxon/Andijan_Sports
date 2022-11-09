@@ -2,6 +2,7 @@ import React from 'react'
 import style from "./NewsHeader.module.css"
 import img from "../../assets/news1.png"
 import Team from './team/Team'
+import Videos from './videos/Videos'
 const NewsHeader = () => {
     return (
         <div>
@@ -12,6 +13,7 @@ const NewsHeader = () => {
                
             </div> 
             <Team />
+            <Videos/>
         </div>
     )
 }
