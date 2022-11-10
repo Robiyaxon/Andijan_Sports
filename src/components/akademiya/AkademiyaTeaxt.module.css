@@ -1,0 +1,61 @@
+.AkademiyaTeaxt {
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+.AkademiyaTeaxt p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.AkademiyaTeaxt h2 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 70px;
+    color: #000000;
+}
+
+.AkademiyaTeaxt h3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 25px;
+    color: #000000;
+}
+
+.AkademiyaTeaxt img {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.AkademiyaTeaxt h4 {
+    margin-top: 70px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+.AkademiyaTeaxt h6 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 25px;
+    color: #000000;
+
+}

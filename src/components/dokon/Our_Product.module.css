@@ -1,0 +1,14 @@
+.Our_Product {
+    padding: 20px 100px;
+}
+
+.Our_Product h1 {
+    font-family: 'Jost';
+    margin: 60px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46px;
+
+    color: #000000;
+}

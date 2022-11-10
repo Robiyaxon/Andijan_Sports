@@ -1,0 +1,86 @@
+.DokonProduct {
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.DokonProduct h1 {
+    font-family: 'Jost';
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 32px;
+    width: 100%;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+}
+
+.DokonProduct p {
+    width: 670px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 10px;
+
+    color: #000000;
+}
+
+.Block__1 {
+    width: 45%;
+}
+
+.Block__2 {
+    width: 45%;
+}
+
+.Wrapper {
+    width: 100%;
+    margin-top: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #BF0000;
+    padding: 24px 50px;
+}
+
+.img1 {
+    width: 463px;
+    height: 346px;
+}
+
+.Block {
+    height: 360px;
+}
+
+.Block img {
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.Block__2 h1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+
+.Block__2 h2 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}

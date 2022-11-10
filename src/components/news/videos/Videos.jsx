@@ -1,14 +1,10 @@
 import React from 'react'
 import style from "./Videos.module.css"
-import video from "../../../assets/Videos.png"
 const Videos = () => {
     return (
         <>
             <div className={style.Videos}>
-                <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
-
-                    <img src={video} alt="" />
-                </div>
+             
             </div> 
              <div className={style.Container}>
                 <div className={style.Block}>

@@ -1,0 +1,18 @@
+.AkademiyaHeader {
+    border: 2px solid red;
+    background-image: url("../../assets/akademiya.png");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.AkademiyaHeader h1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 265px;
+    line-height: 383px;
+    color: #FFFFFF;
+}
