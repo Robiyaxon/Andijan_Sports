@@ -1,0 +1,45 @@
+.Media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Block1 {
+    background-image: url("../../assets/mediaHeader.png");
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Block2 {
+    background-image: url("../../assets/MediaHeader1.png");
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Block1 h1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 133.279px;
+    line-height: 193px;
+    color: #FFFFFF;
+    text-shadow: 0px 8.32994px 20.8248px rgba(0, 0, 0, 0.5);
+}
+
+.Block2 h1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51.4252px;
+    line-height: 74px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 3.21408px 8.03519px rgba(0, 0, 0, 0.5);
+}
