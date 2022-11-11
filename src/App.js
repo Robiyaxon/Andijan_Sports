@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div>
-      {width <= 600 ? <Sidebar2 /> : <Sidebar />}
+      {width >= 600 ? <Sidebar /> : <Sidebar2 />}
     </div>
   )
 }
