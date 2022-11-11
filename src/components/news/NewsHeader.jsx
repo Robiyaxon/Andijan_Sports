@@ -1,19 +1,20 @@
 import React from 'react'
-import style from "./NewsHeader.module.css"
-import img from "../../assets/news1.png"
 import Team from './team/Team'
+import Videos from './videos/Videos'
+import { NewsImg } from './NewsImg'
+import video from "../../assets/Videos.png"
+import style from "./videos/Videos.module.css"
 const NewsHeader = () => {
     return (
         <div>
-            <div className={style.NewsHeader}>
-                <div className={style.Block__1}><img src={img} alt="" /></div>
-                <div className={style.Block__2}> <h1> The Irish Times Irish Theatre Awards 2022: All the
-                    winners revealed</h1></div>
-               
-            </div> 
+            <NewsImg />
             <Team />
+            <div className={style.Videos} style={{ width: "100%", display: "flex", justifyContent: "center" }}>
+                <img src={video} alt="" />
+            </div>
+            <Videos />
+
         </div>
     )
 }
-
 export default NewsHeader

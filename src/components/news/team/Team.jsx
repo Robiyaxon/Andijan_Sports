@@ -6,9 +6,20 @@ import img3 from "../../../assets/NewsTeam2.png"
 const Team = () => {
   return (
     <div className={style.Team}>
-      <div>
+      <div className={style.Blog__1}>
         <img src={img2} alt="" />
-        <div className={style.Text}><h1>salom dunyo</h1></div>
+        <div className={style.Text}><h1>The Irish Times Irish Theatre Awards 2022:
+          All the winners revealed</h1></div>
+      </div>
+      <div className={style.Blog__1}>
+        <img src={img1} alt="" />
+        <div className={style.Text}><h1>The Irish Times Irish Theatre Awards 2022:
+          All the winners revealed</h1></div>
+      </div>
+      <div className={style.Blog__1}>
+        <img src={img3} alt="" />
+        <div className={style.Text}><h1>The Irish Times Irish Theatre Awards 2022:
+          All the winners revealed</h1></div>
       </div>
     </div>
   )

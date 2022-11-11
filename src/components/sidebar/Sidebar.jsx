@@ -1,54 +1,81 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 
 import {
   DesktopOutlined,
   FileOutlined,
-  HomeOutlined     ,
+  HomeOutlined,
   TeamOutlined,
   UserOutlined,
 } from '@ant-design/icons'
-import { Breadcrumb, Layout, Menu } from 'antd'
+import { Layout, Menu } from 'antd'
+import { NavLink, Route, Routes } from 'react-router-dom'
 
-import NewsHeader from './../news/NewsHeader'
 import img from '../../assets/images/sidebar_bg.png'
 import logo from '../../assets/images/logo.png'
 
+import Dokon from './../dokon/Dokon'
+import Media from './../media/Media'
+import NewsHeader from './../news/NewsHeader'
+import Akademiya from './../akademiya/Akademiya'
+
 import styles from './Sidebar.module.css'
 
-const Sidebar2 = () => {
+const hamburger = document.querySelector('.hamburger')
+const navLinks = document.querySelector('.nav_links')
+const links = document.querySelectorAll('.nav_links li')
+
+export const Sidebar2 = () => {
+  const hamburgerRef = useRef()
+  const navLinksRef = useRef()
+  const linksRef = useRef()
+
+  const hamburgerClick = () => {
+    //Animate Links
+    navLinksRef.current.classList.toggle('open')
+    // linksRef.current.forEach((link) => {
+      linksRef.current.classList.toggle('fade')
+    // })
+
+    //Hamburger Animation
+    hamburgerRef.current.classList.toggle('toggle')
+  }
   return (
-    <nav>
-      <div class={styles.logo}>
+    <nav id={styles.nav}>
+      <div className={styles.logo}>
         <img src="logo.svg" alt="" />
       </div>
-      <div class={styles.hamburger}>
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+      <div
+        ref={hamburgerRef}
+        className={styles.hamburger}
+        onClick={hamburgerClick}
+      >
+        <div className={styles.line1}></div>
+        <div className={styles.line2}></div>
+        <div className={styles.line3}></div>
       </div>
-      <ul class="nav-links">
-        <li>
+      <ul ref={navLinksRef} className={styles.nav_links}>
+        <li ref={linksRef}>
           <a href="/#">Home</a>
         </li>
-        <li>
+        <li ref={linksRef}>
           <a href="/#">Solutions</a>
         </li>
-        <li>
+        <li ref={linksRef}>
           <a href="/#">Products</a>
         </li>
-        <li>
+        <li ref={linksRef}>
           <a href="/#">Services</a>
         </li>
-        <li>
+        <li ref={linksRef}>
           <a href="/#">Contact Us</a>
         </li>
-        <li>
-          <button class="login-button" href="#">
+        <li ref={linksRef}>
+          <button className={styles.login_button} href="#">
             Login
           </button>
         </li>
         <li>
-          <button class="join-button" href="#">
+          <button className={styles.join_button} href="#">
             Join
           </button>
         </li>
@@ -57,24 +84,33 @@ const Sidebar2 = () => {
   )
 }
 
-// export default Sidebar
-
-const { Content, Footer, Sider } = Layout
-function getItem(label, key, icon, children) {
+const { Content, Sider } = Layout
+function getItem(label, key, icon, url, children) {
   return {
     key,
     icon,
-    children,
+    url,
     label,
   }
 }
 const items = [
-  getItem('Option 1', '1', <HomeOutlined />),
-  getItem('Option 2', '2', <DesktopOutlined />),
-  getItem('User', 'sub1', <UserOutlined />),
-  getItem('Team', 'sub2', <TeamOutlined />),
-  getItem('Files', '9', <FileOutlined />),
+  getItem('Bosh sahifa', '1', <HomeOutlined />, '/'),
+  getItem('Media', '2', <DesktopOutlined />, '/media'),
+  getItem('Yangiliklar', '3', <UserOutlined />, '/news'),
+  getItem('Do’kon', '4', <TeamOutlined />, '/store'),
+  getItem('Statistika', '5', <FileOutlined />, '/statistic'),
+  getItem('Klub', '6', <FileOutlined />, '/club'),
+  getItem('Akademiya', '7', <FileOutlined />, '/academy'),
 ]
+
+const dataMap = items.map((d) => (
+  <Menu.Item key={d.key}>
+    <NavLink to={d.url}>
+      <span>{d.label}</span>
+      {d.icon}
+    </NavLink>
+  </Menu.Item>
+))
 const Sidebar = () => {
   const [collapsed, setCollapsed] = useState(false)
   return (
@@ -94,53 +130,34 @@ const Sidebar = () => {
           position: 'fixed',
           height: '100vh',
           backdropFilter: 'blur(4px)',
-          backgroundColor: 'rgba(0, 7, 34, 0.79)'
+          backgroundColor: 'rgba(0, 7, 34, 0.79)',
+          zIndex: 10,
         }}
       >
         <div className={styles.logo}>
-          <img src={logo} alt='' />
-          </div>
-        <Menu
-          theme="dark"
-          defaultSelectedKeys={['1']}
-          mode="inline"
-          items={items}
-        />
+          <img src={logo} alt="" />
+        </div>
+        <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
+          {dataMap}
+        </Menu>
       </Sider>
       <Layout className="site-layout">
         <Content
           style={{
             width: 'calc(100% - 200px)',
-            marginLeft: 'auto'
+            marginLeft: 'auto',
           }}
         >
-          <Breadcrumb
-            style={{
-              margin: '16px 0',
-            }}
-          >
-            <Breadcrumb.Item>User</Breadcrumb.Item>
-            <Breadcrumb.Item>Bill</Breadcrumb.Item>
-          </Breadcrumb>
-          <div
-            className="site-layout-background"
-            style={{
-              padding: 24,
-              minHeight: 360,
-            }}
-          >
-            <NewsHeader />
-          </div>
+          <Routes>
+            <Route path="/store" element={<Dokon />} />
+            <Route path="/media" element={<Media />} />
+            <Route path="/news" element={<NewsHeader />} />
+            <Route path="/academy" element={<Akademiya />} />
+          </Routes>
         </Content>
-        <Footer
-          style={{
-            textAlign: 'center',
-          }}
-        >
-          Ant Design ©2018 Created by Ant UED
-        </Footer>
       </Layout>
     </Layout>
   )
 }
+
 export default Sidebar

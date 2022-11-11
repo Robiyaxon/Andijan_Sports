@@ -1,0 +1,54 @@
+.MediaTeaxt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 0 100px;
+}
+
+.Block1 {
+    width: 33%;
+}
+
+.Block1 h1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+
+    color: #000000;
+}
+
+.Block1 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 30px;
+    color: #333333;
+
+}
+
+.Block2 {
+    width: 50%;
+}
+
+.Block2 img {
+    width: 100%;
+}
+
+.Block2 h1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33.814px;
+    line-height: 49px;
+
+    color: #000000;
+}
+.Block2 h2{
+    margin-top: 1rem;
+}

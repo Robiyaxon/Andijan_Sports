@@ -64,3 +64,14 @@
   font-family: 'Jost';
   src: url('./assets/fonts/static/Jost-Black.ttf') format('ttf');
 }
+
+.ant-menu-title-content,
+.ant-menu-title-content a{
+  width: 100% !important;
+
+}
+
+.ant-menu-title-content a {
+  display: flex !important;
+  justify-content: space-between;
+}

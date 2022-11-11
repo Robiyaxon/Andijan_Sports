@@ -1,0 +1,42 @@
+.Videos {
+    /* border: 2px solid red; */
+   
+}
+
+.Videos img {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Block {
+    width: 33%;
+}
+
+.Container {
+    background-image: url("../../../assets//bacgroundVideoNews.png");
+    padding: 200px 150px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Container p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.Container h6 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
