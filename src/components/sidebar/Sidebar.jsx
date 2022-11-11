@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 
 import {
   DesktopOutlined,
@@ -20,64 +20,55 @@ import Akademiya from './../akademiya/Akademiya'
 
 import styles from './Sidebar.module.css'
 
-const hamburger = document.querySelector('.hamburger')
-const navLinks = document.querySelector('.nav_links')
-const links = document.querySelectorAll('.nav_links li')
-
 export const Sidebar2 = () => {
-  const hamburgerRef = useRef()
-  const navLinksRef = useRef()
-  const linksRef = useRef()
-
+  const [navLinksClass, setNavLinksClass] = useState('')
+  const [linksClass, setLinksClass] = useState('')
+  const [hamburgerClass, setHamburgerClass] = useState('')
   const hamburgerClick = () => {
-    //Animate Links
-    navLinksRef.current.classList.toggle('open')
-    // linksRef.current.forEach((link) => {
-      linksRef.current.classList.toggle('fade')
-    // })
-
-    //Hamburger Animation
-    hamburgerRef.current.classList.toggle('toggle')
+    if (!navLinksClass && !linksClass && !hamburgerClass) {
+      setNavLinksClass(styles.open)
+      setLinksClass(styles.fade)
+      setHamburgerClass(styles.toggle)
+    } else {
+      setNavLinksClass('')
+      setLinksClass('')
+      setHamburgerClass('')
+    }
   }
   return (
     <nav id={styles.nav}>
-      <div className={styles.logo}>
-        <img src="logo.svg" alt="" />
+      <div className={styles.logo2}>
+        <img src={logo} alt="" />
       </div>
       <div
-        ref={hamburgerRef}
-        className={styles.hamburger}
+        className={styles.hamburger + ' ' + hamburgerClass}
         onClick={hamburgerClick}
       >
         <div className={styles.line1}></div>
         <div className={styles.line2}></div>
         <div className={styles.line3}></div>
       </div>
-      <ul ref={navLinksRef} className={styles.nav_links}>
-        <li ref={linksRef}>
-          <a href="/#">Home</a>
+      <ul className={styles.nav_links + ' ' + navLinksClass}>
+        <li className={linksClass}>
+          <NavLink to="/">Home</NavLink>
         </li>
-        <li ref={linksRef}>
-          <a href="/#">Solutions</a>
+        <li className={linksClass}>
+          <NavLink to="/media">Media</NavLink>
         </li>
-        <li ref={linksRef}>
-          <a href="/#">Products</a>
+        <li className={linksClass}>
+          <NavLink to="/news">Yangiliklar</NavLink>
         </li>
-        <li ref={linksRef}>
-          <a href="/#">Services</a>
+        <li className={linksClass}>
+          <NavLink to="/store">Do’kon</NavLink>
         </li>
-        <li ref={linksRef}>
-          <a href="/#">Contact Us</a>
+        <li className={linksClass}>
+          <NavLink to="/statistic">Statistika</NavLink>
         </li>
-        <li ref={linksRef}>
-          <button className={styles.login_button} href="#">
-            Login
-          </button>
+        <li className={linksClass}>
+          <NavLink to="/club">Klub</NavLink>
         </li>
-        <li>
-          <button className={styles.join_button} href="#">
-            Join
-          </button>
+        <li className={linksClass}>
+          <NavLink to="/academy">Akademiya</NavLink>
         </li>
       </ul>
     </nav>
@@ -85,7 +76,7 @@ export const Sidebar2 = () => {
 }
 
 const { Content, Sider } = Layout
-function getItem(label, key, icon, url, children) {
+function getItem(label, key, icon, url) {
   return {
     key,
     icon,
@@ -146,6 +137,7 @@ const Sidebar = () => {
           style={{
             width: 'calc(100% - 200px)',
             marginLeft: 'auto',
+            position: 'relative',
           }}
         >
           <Routes>
