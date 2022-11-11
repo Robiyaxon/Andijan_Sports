@@ -1,5 +1,77 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+  background-color: transparent !important;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-item,
+.ant-menu-dark.ant-menu-inline .ant-menu-submenu-title {
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-left: 7px solid transparent;
+
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+
+  padding: 25px 24px;
+  height: 66px !important;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-item,
+.ant-menu-dark.ant-menu-inline .ant-menu-submenu-title,
+.ant-menu-vertical .ant-menu-item:not(:last-child),
+.ant-menu-vertical-left .ant-menu-item:not(:last-child),
+.ant-menu-vertical-right .ant-menu-item:not(:last-child),
+.ant-menu-inline .ant-menu-item:not(:last-child),
+.ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content,
+.ant-menu-inline.ant-menu-root
+  .ant-menu-submenu-title
+  > .ant-menu-title-content {
+  margin: 0 !important;
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content,
+.ant-menu-inline.ant-menu-root
+  .ant-menu-submenu-title
+  > .ant-menu-title-content{
+    width: auto;
+    flex: inherit !important;
+  }
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: transparent !important;
+  font-weight: 600;
+  border-left-color: red;
+}
+
+.anticon svg{
+  font-size: 20px;
+
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('./assets/fonts/static/Jost-Black.ttf') format('ttf');
+}
+
+.ant-menu-title-content,
+.ant-menu-title-content a{
+  width: 100% !important;
+
+}
+
+.ant-menu-title-content a {
+  display: flex !important;
+  justify-content: space-between;
 }

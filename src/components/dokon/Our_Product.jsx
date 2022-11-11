@@ -6,64 +6,64 @@ export const Our_Product = () => {
         <div className={style.Our_Product}>
             <h1>Bizning maxsulotlar</h1>
             <div className='Block__Product'>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="content">
-                        <p class="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div className="card">
+                    <div className="content">
+                        <p className="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
             </div>

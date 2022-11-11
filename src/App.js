@@ -1,19 +1,37 @@
-import './App.css';
-import Akademiya from './components/akademiya/Akademiya';
-import Dokon from './components/dokon/Dokon';
-import Homiy from './components/invester/Homiy';
-import Media from './components/media/Media';
-import NewsHeader from './components/news/NewsHeader';
+import Sidebar, { Sidebar2 } from './components/sidebar/Sidebar'
+import { useWindowSize } from './utils/useWindowSize'
+
+import './App.css'
+import 'antd/dist/antd.css'
+
+// function useWindowSize() {
+//   const [windowSize, setWindowSize] = useState({
+//     width: undefined,
+//     height: undefined,
+//   });
+//   useEffect(() => {
+//     function handleResize() {
+//       setWindowSize({
+//         width: window.innerWidth,
+//         height: window.innerHeight,
+//       });
+//     }
+//     // Add event listener
+//     window.addEventListener("resize", handleResize);
+//     handleResize();
+//     return () => window.removeEventListener("resize", handleResize);
+//   }, []);
+//   return windowSize;
+// }
+
 function App() {
+  const { width } = useWindowSize()
+
   return (
     <div>
-      {/* <NewsHeader /> */}
-      {/* <Media/> */}
-      {/* <Akademiya/> */}
-      <Dokon />
-      <Homiy />
+      {width <= 600 ? <Sidebar2 /> : <Sidebar />}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
