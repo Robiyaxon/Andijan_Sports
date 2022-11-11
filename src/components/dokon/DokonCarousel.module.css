@@ -1,0 +1,51 @@
+.image {
+    height: 20pc;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image.image1 {
+    background: url("../../assets/product3.png");
+    background-size: cover;
+}
+
+.image.image2 {
+    background: url("../../assets/product2.png");
+    background-size: cover;
+}
+
+.image.image3 {
+    background: url("../../assets/product6.png");
+    background-size: cover;
+}
+
+.image.image4 {
+    background: url("../../assets/product5.png");
+    background-size: cover;
+}
+
+.image.image5 {
+    background: url("../../assets/product8.png");
+    background-size: cover;
+}
+
+.image.image6 {
+    background: url("../../assets/dokon4.png");
+    background-size: cover;
+}
+
+.DokonCarousel {
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Block {
+    border: 2px solid red;
+    width: 35%;
+}
+.App{
+    width: 60%;
+}
