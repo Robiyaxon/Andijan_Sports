@@ -1,11 +1,15 @@
-import './App.css';
-import NewsHeader from './components/news/NewsHeader';
+import Sidebar from './components/sidebar/Sidebar'
+
+import './App.css'
+import 'antd/dist/antd.css'
+
 function App() {
   return (
     <div>
-      <NewsHeader />
+ 
+      <Sidebar />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

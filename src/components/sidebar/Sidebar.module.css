@@ -1,0 +1,13 @@
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 40px;
+  background-image: url(../../assets/images/logo_light.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.logo img{
+  object-fit: cover;
+}
