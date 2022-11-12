@@ -25,7 +25,6 @@
   height: 66px !important;
   flex-direction: row-reverse;
   justify-content: space-between;
-  
 }
 
 .ant-menu-dark.ant-menu-inline .ant-menu-item,
@@ -44,10 +43,10 @@
 .ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content,
 .ant-menu-inline.ant-menu-root
   .ant-menu-submenu-title
-  > .ant-menu-title-content{
-    width: auto;
-    flex: inherit !important;
-  }
+  > .ant-menu-title-content {
+  width: auto;
+  flex: inherit !important;
+}
 
 .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
   background-color: transparent !important;
@@ -55,9 +54,8 @@
   border-left-color: red;
 }
 
-.anticon svg{
+.anticon svg {
   font-size: 20px;
-
 }
 
 @font-face {
@@ -66,12 +64,16 @@
 }
 
 .ant-menu-title-content,
-.ant-menu-title-content a{
+.ant-menu-title-content a {
   width: 100% !important;
-
 }
 
 .ant-menu-title-content a {
   display: flex !important;
   justify-content: space-between;
+}
+
+.ant-carousel .slick-list,
+.ant-carousel .slick-list .slick-slide > div > div {
+  height: 100vh !important;
 }

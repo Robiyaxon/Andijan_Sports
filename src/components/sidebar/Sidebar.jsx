@@ -19,6 +19,7 @@ import NewsHeader from './../news/NewsHeader'
 import Akademiya from './../akademiya/Akademiya'
 
 import styles from './Sidebar.module.css'
+import Home from './../home/Home';
 
 export const Sidebar2 = () => {
   const [navLinksClass, setNavLinksClass] = useState('')
@@ -103,7 +104,6 @@ const dataMap = items.map((d) => (
   </Menu.Item>
 ))
 const Sidebar = () => {
-  const [collapsed, setCollapsed] = useState(false)
   return (
     <Layout
       style={{
@@ -111,9 +111,6 @@ const Sidebar = () => {
       }}
     >
       <Sider
-        collapsible
-        collapsed={collapsed}
-        onCollapse={(value) => setCollapsed(value)}
         style={{
           backgroundImage: `url(${img})`,
           backgroundRepeat: 'no-repeat',
@@ -141,6 +138,7 @@ const Sidebar = () => {
           }}
         >
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/store" element={<Dokon />} />
             <Route path="/media" element={<Media />} />
             <Route path="/news" element={<NewsHeader />} />
