@@ -14,7 +14,6 @@ const Homiy = () => {
                 <img src={img2} alt="" />
                 <img src={img3} alt="" />
                 <img src={img4} alt="" />
-                <img src={img5} alt="" />
             </div>
             <hr color='red' width="100%" />
         </div>

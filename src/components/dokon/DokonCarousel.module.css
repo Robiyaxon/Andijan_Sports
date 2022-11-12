@@ -46,10 +46,10 @@
     flex-wrap: wrap;
     background-image: url("../../assets/dokoncarousel.png");
     padding: 30px 30px;
+    margin: 60px 0;
 }
 
 .Block {
-    border: 2px solid red;
     width: 35%;
 }
 .App{

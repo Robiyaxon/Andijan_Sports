@@ -8,7 +8,7 @@ import {
   UserOutlined,
 } from '@ant-design/icons'
 import { Layout, Menu } from 'antd'
-import { NavLink, Route, Routes } from 'react-router-dom'
+import { NavLink, Route, Routes, useParams } from 'react-router-dom'
 
 import img from '../../assets/images/sidebar_bg.png'
 import logo from '../../assets/images/logo.png'
@@ -19,6 +19,8 @@ import NewsHeader from './../news/NewsHeader'
 import Akademiya from './../akademiya/Akademiya'
 
 import styles from './Sidebar.module.css'
+import Homiy from '../invester/Homiy'
+import Footer from '../footer/Footer'
 
 export const Sidebar2 = () => {
   const [navLinksClass, setNavLinksClass] = useState('')
@@ -93,7 +95,20 @@ const items = [
   getItem('Klub', '6', <FileOutlined />, '/club'),
   getItem('Akademiya', '7', <FileOutlined />, '/academy'),
 ]
-
+const map = [
+  { id: 1, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", name: "FC ANDIJON TRIKOT HOME 22/23" },
+  { id: 2, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  { id: 3, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  { id: 4, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  { id: 5, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  { id: 6, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  { id: 8, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  { id: 9, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  { id: 10, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  { id: 11, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  { id: 12, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+  { id: 13, title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+]
 const dataMap = items.map((d) => (
   <Menu.Item key={d.key}>
     <NavLink to={d.url}>
@@ -141,15 +156,23 @@ const Sidebar = () => {
           }}
         >
           <Routes>
-            <Route path="/store" element={<Dokon />} />
+            <Route path="/store" element={<Dokon map={map} />} />
+            <Route path="/store/:id" element={<DokonSingle map={map} />} />
             <Route path="/media" element={<Media />} />
             <Route path="/news" element={<NewsHeader />} />
             <Route path="/academy" element={<Akademiya />} />
           </Routes>
+          <Homiy />
+          <Footer />
         </Content>
       </Layout>
     </Layout>
   )
 }
-
+const DokonSingle = (props) => {
+  let { id } = useParams()
+  return (
+    <div>img</div>
+  )
+}
 export default Sidebar

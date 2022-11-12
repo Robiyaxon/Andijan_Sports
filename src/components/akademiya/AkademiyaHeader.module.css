@@ -1,5 +1,4 @@
 .AkademiyaHeader {
-    border: 2px solid red;
     background-image: url("../../assets/akademiya.png");
     height: 100vh;
     display: flex;
@@ -12,7 +11,9 @@
     font-family: 'Jost';
     font-style: normal;
     font-weight: 700;
-    font-size: 265px;
+    text-align: center;
+    font-size: 225px;
     line-height: 383px;
     color: #FFFFFF;
+    width: 100%;
 }
