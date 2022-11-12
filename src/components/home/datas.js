@@ -52,15 +52,15 @@ const dataContain = [
   {
     id: 1,
     bg: bg2,
-    t1: 'Yulduzlar biz haqimizda',
-    t2: 'Galiluin Vagiz',
-    t3: '“ANDIJON”ning qaytishini kutyapman',
+    t1: 'Taqdirlash',
+    t2: 'Viktor Ko’mikov',
+    t3: 'Eng yahshi futbolchi statuetkasini topshirdi',
   },
   {
     id: 2,
     bg: bg3,
     t1: 'Yulduzlar biz haqimizda',
-    t2: 'Vagiz Galiluin',
+    t2: 'Galiluin Galiluin',
     t3: '“ANDIJON”ning qaytishini kutyapman',
   },
 ]
