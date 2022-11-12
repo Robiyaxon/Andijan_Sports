@@ -6,6 +6,7 @@ import img1 from "../../assets/img1dokon.png"
 import img2 from "../../assets/dokon4.png"
 import img3 from "../../assets/dokon1.png"
 export const DokonProduct = () => {
+  
     return (
         <div className={style.DokonProduct}>
             <h1>New Products</h1>

@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 50px;
+    padding: 0 20px;
 }
 
 .Wrapper {
@@ -20,8 +20,9 @@
     font-family: 'Bebas';
     font-style: normal;
     font-weight: 600;
-    font-size: 133.556px;
+    font-size: 123.556px;
     line-height: 316px;
-
+    width: 100%;
+    text-align: center;
     color: #FFFFFF;
 }

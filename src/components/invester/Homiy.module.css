@@ -1,0 +1,14 @@
+.Homiy {
+    padding: 70px 120px;
+    width: 100%;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo img {
+    margin: 50px 35px;
+}

@@ -16,7 +16,6 @@ function DokonCarousel() {
 
     return (
         <div className={style.DokonCarousel}>
-            <div className={style.Block}>salom 90</div>
         <div className={style.App}>
             <CarouselWrapper items={items} mode="gallery">
                 <div className={style.image + " " + style.image1}></div>

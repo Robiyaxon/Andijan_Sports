@@ -4,11 +4,11 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 100px;
-    padding: 0 100px;
+    padding: 0 80px;
 }
 
 .Block1 {
-    width: 33%;
+    width: 43%;
 }
 
 .Block1 h1 {

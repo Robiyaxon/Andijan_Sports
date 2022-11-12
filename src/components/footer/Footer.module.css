@@ -1,0 +1,100 @@
+.Footer {
+    background: #001204;
+    padding: 52px 0 30px 0;
+    margin-top: 90px;
+}
+
+.Img1 {
+    width: 100%;
+}
+
+.Img2 {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.Img_Block {
+    width: 100%;
+    text-align: center;
+}
+
+.Block_text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.Block_text p {
+    font-family: 'Plus Jakarta Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 788px;
+    text-align: center;
+    color: #9A9EA6;
+}
+
+.socilMedia {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Media {
+    height: 50px;
+    width: 50px;
+    margin: 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #BF0000;
+    border-radius: 50%;
+}
+
+.Media a {
+    color: white;
+}
+
+.Link {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Link a {
+    margin: 0 20px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #9A9EA6;
+}
+
+.addred {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.addred a {
+    margin: 0 50px;
+    font-size: 18.98px;
+    color: #BF0000;
+    font-weight: 700;
+
+}
+
+.Footer h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #9A9EA6;
+    margin-top: 5rem;
+}

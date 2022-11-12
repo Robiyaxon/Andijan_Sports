@@ -3,6 +3,7 @@ import { useWindowSize } from './utils/useWindowSize'
 
 import './App.css'
 import 'antd/dist/antd.css'
+import Homiy from './components/invester/Homiy'
 
 // function useWindowSize() {
 //   const [windowSize, setWindowSize] = useState({
@@ -30,6 +31,7 @@ function App() {
   return (
     <div>
       {width >= 600 ? <Sidebar /> : <Sidebar2 />}
+    
     </div>
   )
 }
