@@ -13,11 +13,9 @@ import { NavLink } from 'react-router-dom'
 import img from '../../assets/images/sidebar_bg.png'
 import logo from '../../assets/images/logo.png'
 
-import Homiy from '../invester/Homiy'
-import Footer from '../footer/Footer'
+import MyRoute from '../../MyRoute'
 
 import styles from './Sidebar.module.css'
-import MyRoute from '../../MyRoute'
 
 export const Sidebar2 = () => {
   const [navLinksClass, setNavLinksClass] = useState('')
@@ -35,42 +33,45 @@ export const Sidebar2 = () => {
     }
   }
   return (
-    <nav id={styles.nav}>
-      <div className={styles.logo2}>
-        <img src={logo} alt="" />
-      </div>
-      <div
-        className={styles.hamburger + ' ' + hamburgerClass}
-        onClick={hamburgerClick}
-      >
-        <div className={styles.line1}></div>
-        <div className={styles.line2}></div>
-        <div className={styles.line3}></div>
-      </div>
-      <ul className={styles.nav_links + ' ' + navLinksClass}>
-        <li className={linksClass}>
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li className={linksClass}>
-          <NavLink to="/media">Media</NavLink>
-        </li>
-        <li className={linksClass}>
-          <NavLink to="/news">Yangiliklar</NavLink>
-        </li>
-        <li className={linksClass}>
-          <NavLink to="/store">Do’kon</NavLink>
-        </li>
-        <li className={linksClass}>
-          <NavLink to="/statistic">Statistika</NavLink>
-        </li>
-        <li className={linksClass}>
-          <NavLink to="/club">Klub</NavLink>
-        </li>
-        <li className={linksClass}>
-          <NavLink to="/academy">Akademiya</NavLink>
-        </li>
-      </ul>
-    </nav>
+    <>
+      <nav id={styles.nav}>
+        <div className={styles.logo2}>
+          <img src={logo} alt="" />
+        </div>
+        <div
+          className={styles.hamburger + ' ' + hamburgerClass}
+          onClick={hamburgerClick}
+        >
+          <div className={styles.line1}></div>
+          <div className={styles.line2}></div>
+          <div className={styles.line3}></div>
+        </div>
+        <ul className={styles.nav_links + ' ' + navLinksClass}>
+          <li className={linksClass}>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li className={linksClass}>
+            <NavLink to="/media">Media</NavLink>
+          </li>
+          <li className={linksClass}>
+            <NavLink to="/news">Yangiliklar</NavLink>
+          </li>
+          <li className={linksClass}>
+            <NavLink to="/store">Do’kon</NavLink>
+          </li>
+          <li className={linksClass}>
+            <NavLink to="/statistic">Statistika</NavLink>
+          </li>
+          <li className={linksClass}>
+            <NavLink to="/club">Klub</NavLink>
+          </li>
+          <li className={linksClass}>
+            <NavLink to="/academy">Akademiya</NavLink>
+          </li>
+        </ul>
+      </nav>
+      <MyRoute />
+    </>
   )
 }
 
@@ -137,8 +138,6 @@ const Sidebar = () => {
           }}
         >
           <MyRoute />
-          <Homiy />
-          <Footer />
         </Content>
       </Layout>
     </Layout>

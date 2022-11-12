@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom'
 
 import dokon1 from './assets/dokon1.png'
 import dokon2 from './assets/dokon4.png'
@@ -14,15 +14,14 @@ import dokon10 from './assets/img1dokon.png'
 import dokon11 from './assets/product6.png'
 import dokon12 from './assets/product8.png'
 
-
-import Home from './components/home/Home';
-import Dokon from './components/dokon/Dokon';
-import { DokonSingle } from './components/sidebar/DokonSingle';
-import Media from './components/media/Media';
-import NewsHeader from './components/news/NewsHeader';
-import Akademiya from './components/akademiya/Akademiya';
-
-
+import Home from './components/home/Home'
+import Dokon from './components/dokon/Dokon'
+import { DokonSingle } from './components/sidebar/DokonSingle'
+import Media from './components/media/Media'
+import NewsHeader from './components/news/NewsHeader'
+import Akademiya from './components/akademiya/Akademiya'
+import Homiy from './components/invester/Homiy'
+import Footer from './components/footer/Footer'
 
 const map = [
   {
@@ -102,14 +101,18 @@ const map = [
 
 const MyRoute = () => {
   return (
-    <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/store" element={<Dokon map={map} />} />
-    <Route path="/store/:id" element={<DokonSingle map={map} />} />
-    <Route path="/media" element={<Media />} />
-    <Route path="/news" element={<NewsHeader />} />
-    <Route path="/academy" element={<Akademiya />} />
-  </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/store" element={<Dokon map={map} />} />
+        <Route path="/store/:id" element={<DokonSingle map={map} />} />
+        <Route path="/media" element={<Media />} />
+        <Route path="/news" element={<NewsHeader />} />
+        <Route path="/academy" element={<Akademiya />} />
+      </Routes>
+      <Homiy />
+      <Footer />
+    </>
   )
 }
 
