@@ -22,6 +22,7 @@ import NewsHeader from './components/news/NewsHeader'
 import Akademiya from './components/akademiya/Akademiya'
 import Homiy from './components/invester/Homiy'
 import Footer from './components/footer/Footer'
+import MyStatistic from './components/statistic/Statistic'
 import ScrollToTop from './ScrollerOn'
 import OpenIconSpeedDial from './speedDeal.jsx/SpeedDeal'
 
@@ -107,12 +108,13 @@ const MyRoute = () => {
       <OpenIconSpeedDial />
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="store" element={<Dokon map={map} />} />
         <Route path="store/:id" element={<DokonSingle map={map} />} />
         <Route path="media" element={<Media />} />
         <Route path="news" element={<NewsHeader />} />
         <Route path="academy" element={<Akademiya />} />
+        <Route path="statistic" element={<MyStatistic />} />
       </Routes>
       <Homiy />
       <Footer />
