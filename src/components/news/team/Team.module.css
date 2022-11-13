@@ -4,7 +4,7 @@
     background-image: url("../../../assets/teamNews.png");
     height: 500px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding: 120px;
     flex-wrap: wrap;
 }
@@ -44,4 +44,72 @@
     position: relative;
 
     width: 100%;
+}
+
+@media(min-width:0) and (max-width:870.9px) {
+    .Team {
+        width: 100%;
+        margin-top: 30px;
+        height: auto;
+        padding: 15px;
+        margin-bottom: 2rem;
+    }
+
+    .Blog__1 {
+        width: 100%;
+        margin-top: 1rem;
+        display: grid;
+        justify-items: center;
+    }
+
+    .Text {
+        display: none;
+    }
+
+    .Blog__1 img {
+        position: relative;
+        width: 90%;
+        height: 270px;
+        object-fit: cover;
+    }
+}
+
+@media(min-width:871px) and (max-width:950.9px) {
+    .Team {
+        margin-top: 10px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .Blog__1 {
+        width: 60%;
+        margin: 0.5rem 0;
+    }
+
+    .Text {
+        width: 328.41px;
+        margin-top: 17rem;
+    }
+}
+
+@media(min-width:951px) and (max-width:1200.9px) {
+    .Blog__1 {
+        width: 43%;
+        margin: 1rem;
+    }
+    .Team {
+        margin-top: 10px;
+        height: auto;
+        padding: 20px;
+    }
+    .Text {
+        display: none;
+    }
+
+    .Team {
+        height: auto;
+    }
+    .Text h1 {
+        font-size: 10px;
+    }
 }

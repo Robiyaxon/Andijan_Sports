@@ -136,6 +136,7 @@
     line-height: 25px;
 }
 @media (hover: hover) and (min-width: 600px) {
+   
     .card:after {
         transform: translateY(0);
     }
@@ -183,4 +184,16 @@
     .card:focus-within .content>*:not(.title) {
         transition-duration: 0s;
     }
+}
+@media(min-width:0) and (max-width:870.9px){
+    .card{
+        width: 90%;
+        margin: 0.5rem 0;
+    }
+}
+@media(min-width:871px) and (max-width:1200.9px){
+    .card{
+        width: 45%;
+        margin: 0.5rem ;
+    }  
 }

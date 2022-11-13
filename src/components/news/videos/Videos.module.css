@@ -40,3 +40,35 @@
     margin-top: 20px;
     color: #FFFFFF;
 }
+@media(min-width:0) and (max-width:770.9px){
+    .Container {
+        padding: 30px 15px;
+        margin-top: 3rem;
+    }
+    .Block {
+        width: 90%;
+    }
+    .Videos img {
+        text-align: center;
+        padding: 20px 0;
+        margin: 1rem 0;
+        width: 90%;
+    }
+}
+@media(min-width:771px) and (max-width:1100.9px){
+    .Container {
+        background-image: url("../../../assets//bacgroundVideoNews.png");
+        padding: 70px 15px;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }   
+    .Videos img {
+        text-align: center;
+        padding: 20px 0;
+        max-width: 90%;
+    }
+   
+}

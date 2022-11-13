@@ -1,5 +1,4 @@
 .DokonProduct {
-    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,4 +82,55 @@
     line-height: 26px;
 
     color: #FFFFFF;
+}
+@media(min-width:0) and (max-width:990.9px){
+    .DokonProduct h1 {
+        font-size: 22px;
+    }
+    .DokonProduct p {
+        width: 100%;
+        font-size: 17px;
+    }
+    .Wrapper {
+        width: 100%;
+        margin-top: 38px;
+        padding: 14px 15px;
+    }
+    .Block__1 {
+        width: 90%;
+    }
+    
+    .Block__2 {
+        width: 90%;
+    }
+    .Block {
+        height: 306px;
+    }
+    .img1 {
+        width: 363px;
+        height: 306px;
+    }
+    .Block__2 h1 {
+        font-size: 20px;
+    }
+    .Block__2 h2 {
+        font-size: 17px;
+        text-align: center;
+    }
+}
+@media(min-width:991px) and (max-width:1200.9px){
+    .DokonProduct h1 {
+        font-size: 21px;
+    }  
+    .Block__1 {
+        width: 47%;
+    }
+    
+    .Block__2 {
+        width: 47%;
+    }
+    .Block__2 h2 {
+        text-align: center;
+        font-size: 17px;
+    }
 }

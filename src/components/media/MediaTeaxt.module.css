@@ -49,6 +49,46 @@
 
     color: #000000;
 }
-.Block2 h2{
+
+.Block2 h2 {
     margin-top: 1rem;
+}
+
+@media(min-width:0) and (max-width:770.9px) {
+    .Block1 {
+        width: 100%;
+    }
+
+    .Block2 {
+        width: 100%;
+    }
+
+    .MediaTeaxt {
+        margin-top: 3rem;
+        padding: 0 15px;
+    }
+
+    .Block1 p {
+        font-size: 17px;
+        margin-top: 10px;
+
+    }
+
+    .Block2 h1 {
+        font-size: 20.814px;
+    }
+
+    .Block2 h2 {
+        margin-top: 0;
+    }
+}
+
+@media (min-width:771px) and (max-width:1180.9px) {
+    .MediaTeaxt {
+        margin-top: 50px;
+        padding: 0 15px;
+    }
+    .Block2 h1 {
+        font-size: 20.814px;
+    }
 }

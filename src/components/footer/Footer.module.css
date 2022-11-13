@@ -78,6 +78,10 @@
 .addred {
     margin-top: 3rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .addred a {
@@ -97,4 +101,23 @@
     text-align: center;
     color: #9A9EA6;
     margin-top: 5rem;
+}
+
+@media(min-width:0) and (max-width:800.9px) {
+    .Link {
+        display: none;
+    }
+
+    .Footer {
+        padding: 32px 1rem 20px 1rem;
+        margin-top: 40px;
+    }
+    .addred a {
+        margin: 0;
+        width: 100%;
+    
+    }
+    .Footer h1 {
+        margin-top: 3rem;
+    }
 }
