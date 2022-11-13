@@ -4,9 +4,10 @@ import liga from '../../assets/images/home_liga.png'
 import bg1 from '../../assets/images/home_bg.png'
 import bg2 from '../../assets/akademiya.png'
 import bg3 from '../../assets/akademiya1.png'
+import club_logo from '../../assets/images/logo.png'
+import club2_logo from '../../assets/images/aral_samali.png'
 
 import styles from './Home.module.css'
-
 
 const data = [
   {
@@ -54,13 +55,13 @@ const dataContain = [
     bg: bg2,
     t1: 'Taqdirlash',
     t2: 'Viktor Ko’mikov',
-    t3: 'Eng yahshi futbolchi statuetkasini topshirdi',
+    t3: 'Eng yahshi futbolchi statuetkasi topshirildi',
   },
   {
     id: 2,
     bg: bg3,
     t1: 'Yulduzlar biz haqimizda',
-    t2: 'Galiluin Galiluin',
+    t2: 'Galiluin Vagiz',
     t3: '“ANDIJON”ning qaytishini kutyapman',
   },
 ]
@@ -100,3 +101,99 @@ export const dataContainMap = dataContain.map((d) => (
     </h3>
   </div>
 ))
+
+const statistic_data = [
+  {
+    id: 0,
+    part: 'Chorak 1',
+    club1_img: andijan_club,
+    clubsName: 'Andijan VS Bunyodkor',
+    club2_img: bunyodkor_club,
+  },
+  {
+    id: 1,
+    part: 'Chorak 2',
+    club1_img: andijan_club,
+    clubsName: 'Andijan VS Bunyodkor',
+    club2_img: bunyodkor_club,
+  },
+  {
+    id: 2,
+    part: 'Chorak 3',
+    club1_img: andijan_club,
+    clubsName: 'Andijan VS Bunyodkor',
+    club2_img: bunyodkor_club,
+  },
+  {
+    id: 3,
+    part: 'Chorak 4',
+    club1_img: andijan_club,
+    clubsName: 'Andijan VS Bunyodkor',
+    club2_img: bunyodkor_club,
+  },
+  {
+    id: 4,
+    part: 'Chorak 4',
+    club1_img: andijan_club,
+    clubsName: 'Andijan VS Bunyodkor',
+    club2_img: bunyodkor_club,
+  },
+  {
+    id: 5,
+    part: 'Chorak 4',
+    club1_img: andijan_club,
+    clubsName: 'Andijan VS Bunyodkor',
+    club2_img: bunyodkor_club,
+  },
+]
+
+export const statistic_dataMap = statistic_data.map((d) => (
+  <div className={styles.statistic__main_block_box} key={d.id}>
+    <h3>{d.part}</h3>
+    <div className={styles.statistic__main_block_box_div}>
+      <img src={d.club1_img} alt="" />
+      <h2>{d.clubsName}</h2>
+      <img src={d.club2_img} alt="" />
+    </div>
+  </div>
+))
+
+
+export const statistic_main_data=[
+  {
+    id: 1,
+    matchDate: '19 iyul',
+    matchTime: '22:30',
+    ligaImg: liga,
+    club1_logo: club_logo,
+    club1_name: 'Andijon',
+    club1_num: '6',
+    club2_num: '1',
+    club2_name: 'Aral Samali',
+    club2_logo,
+  },
+  {
+    id: 2,
+    matchDate: '19 iyul',
+    matchTime: '22:30',
+    ligaImg: liga,
+    club1_logo: club_logo,
+    club1_name: 'Andijon',
+    club1_num: '6',
+    club2_num: '1',
+    club2_name: 'Aral Samali',
+    club2_logo,
+  },
+  {
+    id: 3,
+    matchDate: '19 iyul',
+    matchTime: '22:30',
+    ligaImg: liga,
+    club1_logo: club_logo,
+    club1_name: 'Andijon',
+    club1_num: '6',
+    club2_num: '1',
+    club2_name: 'Aral Samali',
+    club2_logo,
+  },
+]

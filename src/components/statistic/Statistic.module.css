@@ -1,0 +1,147 @@
+.wrap {
+  background-image: url(../../assets/images/statistic_tv.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  padding: 30px 53px 30px 80px;
+}
+
+.header,
+.header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.header div {
+  width: 20%;
+}
+
+.header div h1 {
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.header p {
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  color: #ff0b45;
+}
+
+.main {
+  background-image: url(../../assets/images/statistic_liga.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+  width: 100%;
+  padding: 20px 70px;
+}
+
+.main_title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.2549px;
+  line-height: 25px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.main_title hr {
+  margin-top: 15px;
+}
+
+.main_block__title {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 30px;
+}
+
+.main_block__title h2{
+  text-align: right;
+}
+
+.main_block__title h1,
+.main_block__title h2 {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22.2804px;
+  line-height: 32px;
+
+  color: #ffffff;
+}
+
+.main_block__main,
+.main_block__main_club,
+.main_block__main_num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.main_block__main_num p {
+  margin: 0;
+}
+
+.main_block__main strong {
+  font-size: 32px;
+  line-height: 47px;
+}
+
+.main_block__main h2 {
+  font-size: 28px;
+  line-height: 35px;
+  color: #fff;
+  margin: 0 0 0 20px;
+}
+
+.main_block__main_club img {
+  height: 50px;
+  object-fit: cover;
+  margin: 0 0 0 20px;
+}
+
+.main_block__main_num{
+  width: 5%;
+  margin-left: 3rem;
+}
+
+.main_block__main_num,
+.main_block__main_num h6 {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26.3313px;
+  line-height: 36px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.main_block__main_num p {
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  margin-left: 10px;
+}
+
+.main_block__main_num h6 {
+  margin: 0 10px 0 0;
+}

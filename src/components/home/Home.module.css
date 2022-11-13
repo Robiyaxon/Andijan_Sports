@@ -14,7 +14,7 @@
   flex-direction: column;
   width: 60%;
   height: 70vh;
-  margin-top: 30vh;
+  margin-top: 20vh;
 }
 
 .main_container__lText h3 {
@@ -142,21 +142,26 @@
 
   font-family: 'Jost', sans-serif;
   font-style: normal;
-  padding: 2rem 150px;
+  padding: 2rem 50px;
+}
+
+.statistic_wrap {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .statistic h1 {
   font-weight: 600;
-  font-size: 150px;
-  line-height: 217px;
+  font-size: 130px;
+  line-height: 200px;
 
   width: 90%;
   text-align: center;
   color: #ffffff;
 }
 
-.statistic__text_block{
-  width: 55%;
+.statistic__text_block {
+  width: 50%;
 }
 
 .statistic__text_block p {
@@ -180,4 +185,84 @@
   text-align: center;
 
   color: #ffffff;
+  margin-top: 50px;
+}
+
+.statistic__text_block__clubs {
+  width: 70%;
+  margin: 50px auto 0;
+  justify-content: space-between;
+}
+
+.statistic__text_block__clubs,
+.statistic__text_block__clubs div {
+  display: flex;
+}
+
+.statistic__text_block__clubs div {
+  width: 40%;
+  align-items: center;
+}
+
+.statistic__text_block__clubs h2 {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #ffffff;
+}
+
+.statistic__text_block__clubs img {
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.statistic__main_block {
+  width: 50%;
+  background: #050039;
+}
+
+.statistic__main_block h3 {
+  width: 40%;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #ffffff;
+  padding: 15px 50px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 0;
+}
+
+.statistic__main_block_box,
+.statistic__main_block_box_div {
+  display: flex;
+}
+
+.statistic__main_block .statistic__main_block_box:last-child .statistic__main_block_box_div,
+.statistic__main_block .statistic__main_block_box:last-child h3{
+  border-bottom: none;
+}
+
+.statistic__main_block_box_div {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  align-items: center;
+}
+.statistic__main_block_box_div h2 {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #ffffff;
+  margin: 0 10px;
 }

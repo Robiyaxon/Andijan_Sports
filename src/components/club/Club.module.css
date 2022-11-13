@@ -1,0 +1,64 @@
+.head,
+.main {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head {
+  background-image: url(../../assets/images/club_header_bg.png);
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head h1 {
+  margin: 0;
+  font-family: 'Bebas', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 200px;
+  line-height: 375px;
+  letter-spacing: -0.055em;
+  color: #fff;
+}
+
+.main {
+  background-image: url(../../assets/images/club_main_bg.png);
+  backdrop-filter: blur(10px);
+  height: 100vh;
+  padding: 100px 0;
+}
+
+.main h1,
+.main h2 {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 52px;
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+  text-align: center;
+}
+
+.main h2 {
+  background-color: #bf0000;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h2::after {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+
+  background: rgba(191, 0, 0, 0.25);
+}
