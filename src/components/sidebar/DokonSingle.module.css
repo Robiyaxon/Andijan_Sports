@@ -1,0 +1,166 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.Img {
+    width: 40%;
+    text-align: center;
+}
+
+.Img img {
+    width: 75%;
+    border: 2px solid red;
+    height: 499.59px;
+
+}
+
+.Block2 {
+    width: 50%;
+}
+
+.Block2 h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.Block2 h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.Block2 button {
+    width: 80%;
+    margin: 20px 0;
+    height: 52.6px;
+    background: #BF0000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 22px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.Block2 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 30px 0;
+    color: #7e7070;
+}
+
+.wrapper h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 1rem;
+    color: #000000;
+}
+
+@media(min-width:0) and (max-width:800.9px) {
+    .Img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Img img {
+        width: 85%;
+        border: 2px solid red;
+        height: 300px;
+
+    }
+
+    .Block2 {
+        width: 100%;
+    }
+
+    .wrapper h4 {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .Block2 h1 {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 1rem;
+    }
+
+    .Block2 {
+        text-align: center;
+    }
+
+    .Block2 h2 {
+        text-align: center;
+        font-size: 18px;
+
+    }
+
+    .Block2 p {
+        font-size: 17px;
+        line-height: 22px;
+        margin: 30px 0.5rem;
+        text-align: center;
+    }
+
+    .Block2 button {
+        width: 80%;
+        margin: 20px auto;
+        text-align: center !important;
+    }
+}
+
+@media(min-width:801px) and (max-width:1200.9px) {
+    Img {
+        width: 40%;
+        text-align: center;
+    }
+
+    .Img img {
+        width: 100%;
+        border: 2px solid red;
+        height: 399.59px;
+
+    }
+
+    .Block2 {
+        width: 55%;
+    }
+
+    .Block2 h1 {
+        font-size: 20px;
+    }
+
+    .Block2 h2 {
+        font-size: 18px;
+
+    }
+
+    .Block2 p {
+        font-size: 16px;
+    }
+
+    .wrapper h4 {
+        font-size: 22px;
+    }
+}
