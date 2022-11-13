@@ -106,11 +106,11 @@ const MyRoute = () => {
     <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/store" element={<Dokon map={map} />} />
-        <Route path="/store/:id" element={<DokonSingle map={map} />} />
-        <Route path="/media" element={<Media />} />
-        <Route path="/news" element={<NewsHeader />} />
-        <Route path="/academy" element={<Akademiya />} />
+        <Route path="store" element={<Dokon map={map} />} />
+        <Route path="store/:id" element={<DokonSingle map={map} />} />
+        <Route path="media" element={<Media />} />
+        <Route path="news" element={<NewsHeader />} />
+        <Route path="academy" element={<Akademiya />} />
       </Routes>
       <Homiy />
       <Footer />

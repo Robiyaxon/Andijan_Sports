@@ -87,12 +87,12 @@ function getItem(label, key, icon, url) {
 
 const items = [
   getItem('Bosh sahifa', '1', <HomeOutlined />, '/'),
-  getItem('Media', '2', <DesktopOutlined />, '/media'),
-  getItem('Yangiliklar', '3', <UserOutlined />, '/news'),
-  getItem('Do’kon', '4', <TeamOutlined />, '/store'),
-  getItem('Statistika', '5', <FileOutlined />, '/statistic'),
-  getItem('Klub', '6', <FileOutlined />, '/club'),
-  getItem('Akademiya', '7', <FileOutlined />, '/academy'),
+  getItem('Media', '2', <DesktopOutlined />, 'media'),
+  getItem('Yangiliklar', '3', <UserOutlined />, 'news'),
+  getItem('Do’kon', '4', <TeamOutlined />, 'store'),
+  getItem('Statistika', '5', <FileOutlined />, 'statistic'),
+  getItem('Klub', '6', <FileOutlined />, 'club'),
+  getItem('Akademiya', '7', <FileOutlined />, 'academy'),
 ]
 
 const dataMap = items.map((d) => (
