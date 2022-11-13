@@ -24,6 +24,7 @@ import Homiy from './components/invester/Homiy'
 import Footer from './components/footer/Footer'
 import MyStatistic from './components/statistic/Statistic'
 import ScrollToTop from './ScrollerOn'
+import OpenIconSpeedDial from './speedDeal.jsx/SpeedDeal'
 
 const map = [
   {
@@ -104,7 +105,8 @@ const map = [
 const MyRoute = () => {
   return (
     <>
-    <ScrollToTop/>
+      <OpenIconSpeedDial />
+      <ScrollToTop />
       <Routes>
         <Route index element={<Home />} />
         <Route path="store" element={<Dokon map={map} />} />
