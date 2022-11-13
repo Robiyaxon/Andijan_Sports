@@ -103,7 +103,7 @@
     margin-top: 5rem;
 }
 
-@media(min-width:0) and (max-width:800.9px) {
+@media(min-width:0) and (max-width:860.9px) {
     .Link {
         display: none;
     }
