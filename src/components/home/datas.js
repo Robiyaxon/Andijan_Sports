@@ -47,7 +47,8 @@ const dataContain = [
     id: 0,
     bg: bg1,
     t1: 'Yulduzlar biz haqimizda',
-    t2: 'Vagiz Galiluin',
+    t2: 'Viktor Ko’mikov',
+    // t2: 'Vagiz Galiluin',
     t3: '“ANDIJON”ning qaytishini kutyapman',
   },
   {

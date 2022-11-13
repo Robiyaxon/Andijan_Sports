@@ -1,64 +1,64 @@
 .image {
-    height: 467px;
-    width: 100%;
-    border-radius: 10px;
+  height: 467px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image.image1,
+.image.image2,
+.image.image3,
+.image.image4,
+.image.image5,
+.image.image6 {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
 }
 
 .image.image1 {
-    background: url("../../assets/product3.png");
-    background-size: 100% 100% !important;
-
+  background: url('../../assets/product3.png');
 }
 
 .image.image2 {
-    background: url("../../assets/product2.png");
-    background-size: 100% 100% !important;
-
+  background: url('../../assets/product2.png');
 }
 
 .image.image3 {
-    background: url("../../assets/product6.png");
-    background-size: 100% 100% !important;
-
+  background: url('../../assets/product6.png');
 }
 
 .image.image4 {
-    background: url("../../assets/product5.png");
-    background-size: 100% 100% !important;
-
+  background: url('../../assets/product5.png');
 }
 
 .image.image5 {
-    background: url("../../assets/product8.png");
-    background-size: 100% 100% !important;
-
+  background: url('../../assets/product8.png');
 }
 
 .image.image6 {
-    background: url("../../assets/dokon4.png");
-    background-size: 100% 100% !important;
+  background: url('../../assets/dokon4.png');
 }
 
 .DokonCarousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-image: url("../../assets/dokoncarousel.png");
-    padding: 30px 30px;
-    margin: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url('../../assets/dokoncarousel.png');
+  padding: 30px 30px;
+  margin: 60px 0;
 }
 
 .Block {
-    width: 35%;
+  width: 35%;
 }
 
 .App {
-    width: 100%;
+  width: 100%;
 }
 
-@media(min-width:0) and (max-width:900.9px) {
-    .DokonCarousel {
-        display: none;
-    }
+@media (min-width: 0) and (max-width: 900.9px) {
+  .DokonCarousel {
+    display: none;
+  }
 }

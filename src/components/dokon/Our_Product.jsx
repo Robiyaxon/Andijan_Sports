@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Our_Product.css"
 import style from "./Our_Product.module.css"
-export const Our_Product = (props) => {
+export const OurProduct = ({myMap}) => {
 
-    const map2 = props.map.map(a =>
+    const map2 = myMap.map(a =>
 
         <div className="card" key={a.id}><Link to={`/store/${a.id}`}>
             <div className="content">

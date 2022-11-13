@@ -21,6 +21,7 @@ export const Sidebar2 = () => {
   const [navLinksClass, setNavLinksClass] = useState('')
   const [linksClass, setLinksClass] = useState('')
   const [hamburgerClass, setHamburgerClass] = useState('')
+
   const hamburgerClick = () => {
     if (!navLinksClass && !linksClass && !hamburgerClass) {
       setNavLinksClass(styles.open)
@@ -32,6 +33,7 @@ export const Sidebar2 = () => {
       setHamburgerClass('')
     }
   }
+  
   return (
     <>
       <nav id={styles.nav}>

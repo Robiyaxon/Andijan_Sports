@@ -3,6 +3,7 @@ import { Carousel } from 'antd'
 
 import andijan_club from '../../assets/images/home_andijan_club.png'
 import bunyodkor_club from '../../assets/images/home_bunyodkor_club.png'
+import DokonCarousel from './../dokon/DokonCarousel'
 
 import { dataContainMap, statistic_dataMap } from './datas'
 
@@ -14,19 +15,18 @@ export const Statistic = () => {
       <h1> Statistikalar</h1>
       <div className={styles.statistic_wrap}>
         <div className={styles.statistic__text_block}>
-          <p>
-            Kegingi Match
-            <strong>
-              <hr
-                style={{
-                  height: '2px',
-                  borderWidth: 0,
-                  color: '#fff',
-                  backgroundColor: '#fff',
-                }}
-              />
-            </strong>
-          </p>
+          <div className={styles.match}>
+            <p>Kegingi Match</p>
+            <hr
+              style={{
+                height: '2px',
+                borderWidth: 0,
+                color: '#fff',
+                backgroundColor: '#fff',
+              }}
+            />
+          </div>
+
           <h6>14:00 : 26 avgust : 2022 yil</h6>
           <div className={styles.statistic__text_block__clubs}>
             <div>
@@ -62,6 +62,7 @@ const Home = () => {
         {dataContainMap}
       </Carousel>
       <Statistic />
+      <DokonCarousel />
     </div>
   )
 }
