@@ -9,7 +9,9 @@ const Club = () => {
       </header>
       <main className={styles.main}>
         <h1>Statistikalar</h1>
-        <h2>71%</h2>
+        <div className={styles.main_prasent}>
+          <h2>71%</h2>
+        </div>
       </main>
     </div>
   )

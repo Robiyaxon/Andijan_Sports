@@ -23,7 +23,7 @@ import Akademiya from './components/akademiya/Akademiya'
 import Homiy from './components/invester/Homiy'
 import Footer from './components/footer/Footer'
 import MyStatistic from './components/statistic/Statistic'
-import Club from './components/club/Club';
+import ScrollToTop from './ScrollerOn'
 
 const map = [
   {
@@ -104,6 +104,7 @@ const map = [
 const MyRoute = () => {
   return (
     <>
+    <ScrollToTop/>
       <Routes>
         <Route index element={<Home />} />
         <Route path="store" element={<Dokon map={map} />} />
@@ -112,7 +113,6 @@ const MyRoute = () => {
         <Route path="news" element={<NewsHeader />} />
         <Route path="academy" element={<Akademiya />} />
         <Route path="statistic" element={<MyStatistic />} />
-        <Route path="club" element={<Club />} />
       </Routes>
       <Homiy />
       <Footer />

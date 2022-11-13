@@ -1,5 +1,5 @@
 .AkademiyaHeader {
-    background-image: url("../../assets/akademiya.png");
+    background-image: url("../../assets/newsheader.png");
     height: 100vh;
     display: flex;
     align-items: center;
@@ -10,13 +10,12 @@
 .AkademiyaHeader h1 {
     font-family: 'Jost';
     font-style: normal;
-    font-weight: 700;
-    text-align: center;
-    font-size: 225px;
-    line-height: 383px;
+    font-weight: 600;
+    font-size: 282.891px;
+    line-height: 409px;
+    text-align: center; 
     color: #FFFFFF;
-    width: 100%;
-    animation: move linear 2000ms infinite;  
+    animation: move linear 2000ms infinite;
 }
 @keyframes move {
     0% {

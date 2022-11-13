@@ -12,3 +12,12 @@
 
     color: #000000;
 }
+@media(min-width:0) and (max-width:1200.9px){
+    .Our_Product {
+        padding: 20px 15px;
+    }
+    .Our_Product h1 {
+        margin: 30px 0;
+        font-size: 23px;
+    }
+}
