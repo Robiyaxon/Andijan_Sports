@@ -82,14 +82,14 @@
   }
 @media(min-width:0) and (max-width:900.9px){
     .AkademiyaHeader {
-        height: 90vh;
+        height: 80vh;
     }
     .AkademiyaHeader h1 {
         font-family: 'Jost';
         font-style: normal;
         font-weight: 700;
         text-align: center;
-        font-size: 55px;
+        font-size: 65px;
         line-height: 60px;
         color: #FFFFFF;
         width: 100%;
