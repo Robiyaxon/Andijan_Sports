@@ -51,22 +51,22 @@ export const Sidebar2 = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="/media">Media</NavLink>
+            <NavLink to="media">Media</NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="/news">Yangiliklar</NavLink>
+            <NavLink to="news">Yangiliklar</NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="/store">Do’kon</NavLink>
+            <NavLink to="store">Do’kon</NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="/statistic">Statistika</NavLink>
+            <NavLink to="statistic">Statistika</NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="/club">Klub</NavLink>
+            <NavLink to="club">Klub</NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="/academy">Akademiya</NavLink>
+            <NavLink to="academy">Akademiya</NavLink>
           </li>
         </ul>
       </nav>
