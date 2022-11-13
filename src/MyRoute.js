@@ -23,6 +23,7 @@ import Akademiya from './components/akademiya/Akademiya'
 import Homiy from './components/invester/Homiy'
 import Footer from './components/footer/Footer'
 import ScrollToTop from './ScrollerOn'
+import OpenIconSpeedDial from './speedDeal.jsx/SpeedDeal'
 
 const map = [
   {
@@ -103,7 +104,8 @@ const map = [
 const MyRoute = () => {
   return (
     <>
-    <ScrollToTop/>
+      <OpenIconSpeedDial />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="store" element={<Dokon map={map} />} />
