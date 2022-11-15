@@ -65,9 +65,6 @@ export const Sidebar2 = () => {
             <NavLink to="statistic">Statistika</NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="club">Klub</NavLink>
-          </li>
-          <li className={linksClass}>
             <NavLink to="academy">Akademiya</NavLink>
           </li>
         </ul>
@@ -87,7 +84,7 @@ function getItem(label, key, icon, url) {
   }
 }
 
-const items = [
+const items2 = [
   getItem('Bosh sahifa', '1', <HomeOutlined />, '/'),
   getItem('Media', '2', <DesktopOutlined />, '/media'),
   getItem('Yangiliklar', '3', <UserOutlined />, '/news'),
@@ -96,7 +93,7 @@ const items = [
   getItem('Akademiya', '6', <FileOutlined />, '/academy'),
 ]
 
-const dataMap = items.map((d) => (
+const dataMap = items2.map((d) => (
   <Menu.Item key={d.key}>
     <NavLink to={d.url}>
       <span>{d.label}</span>

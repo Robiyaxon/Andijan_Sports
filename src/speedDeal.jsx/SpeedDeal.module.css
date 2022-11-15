@@ -3,6 +3,7 @@
   bottom: 0rem;
   right: 0;
   position: fixed;
+  z-index: 1;
 }
 .trin_trin {
   animation-name: trin !important ;

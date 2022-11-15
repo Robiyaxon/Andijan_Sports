@@ -131,7 +131,7 @@
 }
 
 @media(min-width:801px) and (max-width:1200.9px) {
-    Img {
+    .Img {
         width: 40%;
         text-align: center;
     }

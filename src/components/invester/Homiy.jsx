@@ -4,6 +4,7 @@ import img from "../../assets/addidas.png"
 import img2 from "../../assets/futbolniyclube.png"
 import img3 from "../../assets/utbolTV.png"
 import img4 from "../../assets/Cheevrolet.png"
+
 const Homiy = () => {
     return (
         <div className={style.Homiy}>

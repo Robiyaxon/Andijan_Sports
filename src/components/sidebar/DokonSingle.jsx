@@ -1,6 +1,6 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
 import style from "./DokonSingle.module.css"
+
 export const DokonSingle = (props) => {
   return (
     <div className={style.wrapper}>
