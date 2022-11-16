@@ -14,7 +14,7 @@
 }
 
 .header {
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Jost', sans-serif;
   font-style: normal;
   font-weight: 600;
 }
@@ -47,7 +47,7 @@
 }
 
 .main_title {
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Jost', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20.2549px;
@@ -124,7 +124,7 @@
 
 .main_block__main_num,
 .main_block__main_num h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Jost', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 26.3313px;

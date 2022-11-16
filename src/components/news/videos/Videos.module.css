@@ -18,7 +18,7 @@
 }
 
 .Container p {
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -27,7 +27,7 @@
 }
 
 .Container h6 {
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

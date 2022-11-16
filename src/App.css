@@ -81,7 +81,7 @@
 }
 
 @font-face {
-  font-family: 'Jost';
+  font-family: 'Jost', sans-serif;
   src: url('./assets/fonts/static/Jost-Black.ttf') format('ttf');
 }
 

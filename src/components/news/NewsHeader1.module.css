@@ -9,7 +9,7 @@
 }
 
 .AkademiyaHeader h1 {
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 282.891px;
@@ -85,7 +85,7 @@
         height: 80vh;
     }
     .AkademiyaHeader h1 {
-        font-family: 'Jost';
+        font-family: 'Jost', sans-serif;
         font-style: normal;
         font-weight: 700;
         text-align: center;
@@ -100,7 +100,7 @@
         height: 90vh;
     }   
     .AkademiyaHeader h1 {
-        font-family: 'Jost';
+        font-family: 'Jost', sans-serif;
         font-style: normal;
         font-weight: 700;
         text-align: center;

@@ -22,7 +22,7 @@
 }
 
 .Block2 h1 {
-    font-family: 'Montserrat';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -32,7 +32,7 @@
 }
 
 .Block2 h2 {
-    font-family: 'Montserrat';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -47,7 +47,7 @@
     margin: 20px 0;
     height: 52.6px;
     background: #BF0000;
-    font-family: 'Montserrat';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 700;
     cursor: pointer;
@@ -58,7 +58,7 @@
 }
 
 .Block2 p {
-    font-family: 'Montserrat';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -68,7 +68,7 @@
 }
 
 .wrapper h4 {
-    font-family: 'Montserrat';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;

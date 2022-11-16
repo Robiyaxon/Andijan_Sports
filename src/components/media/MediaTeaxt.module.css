@@ -12,7 +12,7 @@
 }
 
 .Block1 h1 {
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -22,7 +22,7 @@
 }
 
 .Block1 p {
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -41,7 +41,7 @@
 }
 
 .Block2 h1 {
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 33.814px;

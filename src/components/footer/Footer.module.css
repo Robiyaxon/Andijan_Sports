@@ -27,7 +27,7 @@
 }
 
 .Block_text p {
-    font-family: 'Plus Jakarta Display';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -67,7 +67,7 @@
 
 .Link a {
     margin: 0 20px;
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -93,7 +93,7 @@
 }
 
 .Footer h1 {
-    font-family: 'Roboto';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

@@ -6,7 +6,7 @@
 }
 
 .DokonProduct h1 {
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     margin-top: 30px;
     font-weight: 600;
@@ -19,7 +19,7 @@
 
 .DokonProduct p {
     width: 670px;
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -65,7 +65,7 @@
 }
 
 .Block__2 h1 {
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -75,7 +75,7 @@
 }
 
 .Block__2 h2 {
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
