@@ -375,6 +375,7 @@
   .statistic h1 {
     font-size: 30px;
     line-height: 40px;
+    width: 100%;
   }
   .match hr {
     display: none;
@@ -418,6 +419,7 @@
 }
 
 @media (min-width: 601px) and (max-width: 1200.9px) {
+
   .main_container {
     flex-direction: column;
     justify-content: center;
@@ -459,5 +461,26 @@
   }
   .main_container__RText {
     width: 42%;
+  }
+}
+
+@media (min-width:900px) and (max-width: 1428.9px) {
+  .statistic_wrap {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+  }
+  .statistic__main_block{
+    width: 50% !important;
+  }
+  .statistic__text_block{
+    width: 40% !important;
+    justify-content: center;
+    display: flex;
+  }
+  .statistic h1{
+    font-size: 80px;
+    line-height: 90px;
+    width: 100%;
+    margin: 0 0 1rem 0;
   }
 }
