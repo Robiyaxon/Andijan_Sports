@@ -10,7 +10,7 @@ export const DokonSingle = (props) => {
     if (currentId == a.id) {
       return <img key={a.id} src={a.img} alt='' />
     } else {
-      return <></>
+      return <div key={a.id}></div>
     }
   })
   return (
