@@ -6,7 +6,7 @@
 }
 
 .Block1 {
-    background-image: url("../../assets/mediaHeader.png");
+    background-image: url("../../assets/mediaHeader.webp");
     height: 100%;
     width: 50%;
     background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 .Block2 {
-    background-image: url("../../assets/MediaHeader1.png");
+    background-image: url("../../assets/MediaHeader1.webp");
     height: 100%;
     background-size: cover;
     width: 50%;

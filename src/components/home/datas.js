@@ -1,4 +1,4 @@
-import andijan_club from '../../assets/images/home_andijan_club.png'
+import andijan_club from '../../assets/images/home_andijan_club.webp'
 import bunyodkor_club from '../../assets/images/home_bunyodkor_club.png'
 import liga from '../../assets/images/home_liga.png'
 import bg1 from '../../assets/images/home_bg.png'
