@@ -8,7 +8,7 @@ const Dokon = (props) => {
     return (
         <div><DokonHeader />
             <DokonProduct />
-            <OurProduct myMap={props.map}/>
+            <OurProduct  myMap={props.map}/>
             <DokonCarousel/>
         </div>
     )

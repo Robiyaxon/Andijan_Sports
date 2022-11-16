@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 import dokon1 from './assets/dokon1.png'
@@ -103,14 +103,15 @@ const map = [
 ]
 
 const MyRoute = () => {
+
   return (
     <>
       <OpenIconSpeedDial />
       <ScrollToTop />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="store" element={<Dokon map={map} />} />
-        <Route path="store/:id" element={<DokonSingle map={map} />} />
+        <Route path="store" element={<Dokon map={map}  />} />
+        <Route path="store/:currentId" element={<DokonSingle map={map}  />} />
         <Route path="media" element={<Media />} />
         <Route path="news" element={<NewsHeader />} />
         <Route path="academy" element={<Akademiya />} />
