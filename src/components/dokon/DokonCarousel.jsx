@@ -3,11 +3,26 @@ import style from './DokonCarousel.module.css'
 
 import { EffectCoverflow, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Link } from 'react-router-dom';
 
 function DokonCarousel() {
 
   const swiperWidth = "50%";
-
+  const map = [
+    { id: 1, class: style.image1 },
+    { id: 3, class: style.image2 },
+    { id: 4, class: style.image3 },
+    { id: 5, class: style.image4 },
+    { id: 6, class: style.image5 },
+    { id: 8, class: style.image6 },
+  ]
+  const map2 = map.map(a =>
+    <SwiperSlide key={a.id} style={{ width: swiperWidth }}>
+      <Link to={`/store/${a.id}`}>
+        <div className={style.image + ' ' + a.class}></div>
+      </Link>
+    </SwiperSlide>
+  )
   return (
     <div className={style.DokonCarousel}>
       <div className={style.App}>
@@ -27,24 +42,7 @@ function DokonCarousel() {
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
           initialSlide={1}       >
-          <SwiperSlide style={{ width: swiperWidth }}>
-            <div className={style.image + ' ' + style.image1}></div>
-          </SwiperSlide>
-          <SwiperSlide style={{ width: swiperWidth }}>
-            <div className={style.image + ' ' + style.image2}></div>
-          </SwiperSlide>
-          <SwiperSlide style={{ width: swiperWidth }}>
-            <div className={style.image + ' ' + style.image3}></div>
-          </SwiperSlide>
-          <SwiperSlide style={{ width: swiperWidth }}>
-            <div className={style.image + ' ' + style.image4}></div>
-          </SwiperSlide>
-          <SwiperSlide style={{ width: swiperWidth }}>
-            <div className={style.image + ' ' + style.image5}></div>
-          </SwiperSlide>
-          <SwiperSlide style={{ width: swiperWidth }}>
-            <div className={style.image + ' ' + style.image6}></div>
-          </SwiperSlide>
+          {map2}
         </Swiper>
       </div>
     </div>

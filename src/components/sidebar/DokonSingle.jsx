@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import style from "./DokonSingle.module.css"
@@ -6,10 +7,8 @@ export const DokonSingle = (props) => {
   const { currentId } = useParams()
 
   const map = props.map.map(a => {
-
     if (currentId == a.id) {
-      console.log(a.img);
-      return <img src={a.img} alt='' />
+      return <img key={a.id} src={a.img} alt='' />
     } else {
       return <></>
     }

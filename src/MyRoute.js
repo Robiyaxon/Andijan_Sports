@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-
 import dokon1 from './assets/dokon1.png'
 import dokon2 from './assets/dokon4.png'
 import dokon3 from './assets/img1dokon.png'
@@ -13,7 +12,6 @@ import dokon9 from './assets/dokon4.png'
 import dokon10 from './assets/img1dokon.png'
 import dokon11 from './assets/product6.png'
 import dokon12 from './assets/product8.png'
-
 import Home from './components/home/Home'
 import Dokon from './components/dokon/Dokon'
 import { DokonSingle } from './components/sidebar/DokonSingle'
@@ -25,14 +23,13 @@ import Footer from './components/footer/Footer'
 import MyStatistic from './components/statistic/Statistic'
 import ScrollToTop from './ScrollerOn'
 import OpenIconSpeedDial from './speedDeal.jsx/SpeedDeal'
-
 const map = [
   {
     id: 1,
     title:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     name: 'FC ANDIJON TRIKOT HOME 22/23',
-    img: { dokon1 },
+    img:  dokon1 ,
   },
   {
     id: 3,
