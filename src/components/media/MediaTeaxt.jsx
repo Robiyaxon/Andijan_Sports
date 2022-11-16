@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './MediaTeaxt.module.css'
-import img1 from '../../assets/mediafoodbal.png'
+import img1 from '../../assets/mediafoodbal.webp'
 export const MediaTeaxt = () => {
   return (
     <div className={style.MediaTeaxt}>

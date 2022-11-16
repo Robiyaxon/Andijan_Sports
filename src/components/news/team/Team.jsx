@@ -1,8 +1,8 @@
 import React from 'react'
 import style from "./Team.module.css"
-import img1 from "../../../assets/newsTeam1.png"
-import img2 from "../../../assets/teamNews1.png"
-import img3 from "../../../assets/NewsTeam2.png"
+import img1 from "../../../assets/newsTeam1.webp"
+import img2 from "../../../assets/teamNews1.webp"
+import img3 from "../../../assets/NewsTeam2.webp"
 const Team = () => {
   return (
     <div className={style.Team}>

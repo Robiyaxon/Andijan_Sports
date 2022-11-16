@@ -1,6 +1,6 @@
 import React from 'react'
 import style from "./Footer.module.css"
-import img1 from "../../assets/chiziq.png"
+import img1 from "../../assets/chiziq.webp"
 import logo from "../../assets/images/logo.webp"
 import { InstagramOutlined, FacebookOutlined, YoutubeOutlined, TwitterOutlined, PhoneOutlined, MessageOutlined } from '@ant-design/icons';
 import { NavLink } from 'react-router-dom';

@@ -1,9 +1,9 @@
 import React from 'react'
 import style from "./Homiy.module.css"
-import img from "../../assets/addidas.png"
-import img2 from "../../assets/futbolniyclube.png"
-import img3 from "../../assets/utbolTV.png"
-import img4 from "../../assets/Cheevrolet.png"
+import img from "../../assets/addidas.webp"
+import img2 from "../../assets/futbolniyclube.webp"
+import img3 from "../../assets/utbolTV.webp"
+import img4 from "../../assets/Cheevrolet.webp"
 
 const Homiy = () => {
     return (

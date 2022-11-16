@@ -1,6 +1,6 @@
 import React from 'react';
 import style from "./NewsHeader.module.css";
-import img from "../../assets/news1.png";
+import img from "../../assets/news1.webp";
 
 export const NewsImg = () => {
     return (

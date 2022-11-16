@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 100px;
-    background-image: url("../../assets/bacgroundNews.png");
+    background-image: url("../../assets/bacgroundNews.webp");
     background-repeat: no-repeat;
     background-position: right;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@
 .Block__2 {
     width: 50%;
     padding: 20px;
-    background-image: url("../../assets/news2.png");
+    background-image: url("../../assets/news2.webp");
 }
 
 .Block__2 h1 {
@@ -76,7 +76,7 @@
     .Block__2 {
         width: 90%;
         padding: 20px;
-        background-image: url("../../assets/news2.png");
+        background-image: url("../../assets/news2.webp");
     }
     .Block__2 h1 {
         font-size: 22.8083px;

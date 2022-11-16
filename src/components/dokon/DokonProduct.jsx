@@ -2,9 +2,9 @@ import React from 'react';
 import style from "./DokonProduct.module.css"
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import img1 from "../../assets/img1dokon.png"
-import img2 from "../../assets/dokon4.png"
-import img3 from "../../assets/dokon1.png"
+import img1 from "../../assets/img1dokon.webp"
+import img2 from "../../assets/dokon4.webp"
+import img3 from "../../assets/dokon1.webp"
 export const DokonProduct = () => {
   
     return (

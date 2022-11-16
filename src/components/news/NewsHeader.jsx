@@ -2,7 +2,7 @@ import React from 'react'
 import Team from './team/Team'
 import Videos from './videos/Videos'
 import { NewsImg } from './NewsImg'
-import video from "../../assets/Videos.png"
+import video from "../../assets/Videos.webp"
 import style from "./videos/Videos.module.css"
 import { NewsHeader1 } from './NewsHeader1'
 const NewsHeader = () => {
