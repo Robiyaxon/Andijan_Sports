@@ -425,6 +425,7 @@
   .main_container__lText,
   .main_container__RText {
     width: 90%;
+    margin-right: 0;
   }
   .main_container__lText {
     margin-top: 2rem;
@@ -435,7 +436,7 @@
   }
 
   .main_container__lText h1 {
-    font-size: 70px;
+    font-size: 45px;
     line-height: 81px;
     padding: 10px 10px 10px 15px;
   }

@@ -4,6 +4,7 @@ import { Carousel } from 'antd'
 import andijan_club from '../../assets/images/home_andijan_club.png'
 import bunyodkor_club from '../../assets/images/home_bunyodkor_club.png'
 import DokonCarousel from './../dokon/DokonCarousel'
+import Academy from './Academy'
 
 import { dataContainMap, statistic_dataMap } from './datas'
 
@@ -63,6 +64,7 @@ const Home = () => {
       </Carousel>
       <Statistic />
       <DokonCarousel />
+      <Academy />
     </div>
   )
 }

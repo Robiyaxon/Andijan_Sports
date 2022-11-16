@@ -126,7 +126,7 @@ const Sidebar = () => {
         <div className={styles.logo}>
           <img src={logo} alt="" />
         </div>
-        <Menu items={items} theme="dark" defaultSelectedKeys={['1']} mode="inline">
+        <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
           {dataMap}
         </Menu>
       </Sider>

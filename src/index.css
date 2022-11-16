@@ -22,7 +22,7 @@ code {
   background-position: center;
   background-size: cover;
   width: 300px;
-  height: 300px;
+  height: 100%;
 }
 
 .swiper-slide img {
@@ -30,10 +30,10 @@ code {
   width: 100%;
 }
 
-.swiper-3d .swiper-slide-shadow-left{
+/* .swiper-3d .swiper-slide-shadow-left{
   position: inherit !important;
-}
+} */
 
-.swiper-3d .swiper-slide-shadow-right{
+/* .swiper-3d .swiper-slide-shadow-right{
   background: none !important;
-}
+} */
