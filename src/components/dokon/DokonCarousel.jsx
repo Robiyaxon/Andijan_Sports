@@ -5,8 +5,7 @@ import { EffectCoverflow, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 function DokonCarousel() {
-
-  const swiperWidth = "50%";
+  const swiperWidth = '50%'
 
   return (
     <div className={style.DokonCarousel}>
@@ -26,7 +25,8 @@ function DokonCarousel() {
           pagination={true}
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
-          initialSlide={1}       >
+          initialSlide={1}
+        >
           <SwiperSlide style={{ width: swiperWidth }}>
             <div className={style.image + ' ' + style.image1}></div>
           </SwiperSlide>
