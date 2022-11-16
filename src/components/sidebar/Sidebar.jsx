@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 
 import {
   DesktopOutlined,
-  FileOutlined,
   HomeOutlined,
   TeamOutlined,
   UserOutlined,
@@ -33,7 +32,7 @@ export const Sidebar2 = () => {
       setHamburgerClass('')
     }
   }
-  
+
   return (
     <>
       <nav id={styles.nav}>
@@ -50,22 +49,34 @@ export const Sidebar2 = () => {
         </div>
         <ul className={styles.nav_links + ' ' + navLinksClass}>
           <li className={linksClass}>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/" onClick={hamburgerClick}>
+              Home
+            </NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="media">Media</NavLink>
+            <NavLink to="media" onClick={hamburgerClick}>
+              Media
+            </NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="news">Yangiliklar</NavLink>
+            <NavLink to="news" onClick={hamburgerClick}>
+              Yangiliklar
+            </NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="store">Do’kon</NavLink>
+            <NavLink to="store" onClick={hamburgerClick}>
+              Do’kon
+            </NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="statistic">Statistika</NavLink>
+            <NavLink to="statistic" onClick={hamburgerClick}>
+              Statistika
+            </NavLink>
           </li>
           <li className={linksClass}>
-            <NavLink to="academy">Akademiya</NavLink>
+            <NavLink to="academy" onClick={hamburgerClick}>
+              Akademiya
+            </NavLink>
           </li>
         </ul>
       </nav>
@@ -75,25 +86,17 @@ export const Sidebar2 = () => {
 }
 
 const { Content, Sider } = Layout
-function getItem(label, key, icon, url) {
-  return {
-    key,
-    icon,
-    url,
-    label,
-  }
-}
 
-const items2 = [
-  getItem('Bosh sahifa', '1', <HomeOutlined />, '/'),
-  getItem('Media', '2', <DesktopOutlined />, 'media'),
-  getItem('Yangiliklar', '3', <UserOutlined />, 'news'),
-  getItem('Do’kon', '4', <TeamOutlined />, 'store'),
-  getItem('Statistika', '5', <FileOutlined />, 'statistic'),
-  getItem('Akademiya', '6', <FileOutlined />, 'academy'),
+const items = [
+  { label: 'Bosh sahifa', key: '1', icon: <HomeOutlined />, url: '/' },
+  { label: 'Media', key: '2', icon: <DesktopOutlined />, url: 'media' },
+  { label: 'Yangiliklar', key: '3', icon: <UserOutlined />, url: 'news' },
+  { label: 'Do’kon', key: '4', icon: <TeamOutlined />, url: 'store' },
+  { label: 'Statistika', key: '5', icon: <TeamOutlined />, url: 'statistic' },
+  { label: 'Akademiya', key: '6', icon: <TeamOutlined />, url: 'academy' },
 ]
 
-const dataMap = items2.map((d) => (
+const dataMap = items.map((d) => (
   <Menu.Item key={d.key}>
     <NavLink to={d.url}>
       <span>{d.label}</span>
@@ -123,7 +126,7 @@ const Sidebar = () => {
         <div className={styles.logo}>
           <img src={logo} alt="" />
         </div>
-        <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
+        <Menu items={items} theme="dark" defaultSelectedKeys={['1']} mode="inline">
           {dataMap}
         </Menu>
       </Sider>
