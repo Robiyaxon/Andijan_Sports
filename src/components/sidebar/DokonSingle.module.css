@@ -78,6 +78,11 @@
 }
 
 @media(min-width:0) and (max-width:800.9px) {
+    .wrapper {
+        margin-top: 0;
+        padding-top: 8rem;
+    }
+
     .Img {
         width: 100%;
         text-align: center;
@@ -85,9 +90,7 @@
 
     .Img img {
         width: 85%;
-        border: 2px solid red;
         height: 300px;
-
     }
 
     .Block2 {
