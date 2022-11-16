@@ -111,3 +111,10 @@
         width: 100%;
     }
 }
+
+@media (min-width: 1201px) and (max-width: 1340.9px) {
+  .AkademiyaHeader h1{
+    font-size: 200px;
+    line-height: 300px;
+  }
+}

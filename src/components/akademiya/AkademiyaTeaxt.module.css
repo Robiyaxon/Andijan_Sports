@@ -1,91 +1,112 @@
 .AkademiyaTeaxt {
-    padding: 0 50px;
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .AkademiyaTeaxt p {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
 
-    color: #000000;
+  color: #000000;
+  padding: 0 50px;
 }
 
 .AkademiyaTeaxt h2 {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 40px;
-    margin-top: 70px;
-    color: #000000;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 70px;
+  color: #000000;
+  padding: 0 50px;
 }
 
 .AkademiyaTeaxt h3 {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    margin-top: 25px;
-    color: #000000;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 25px;
+  color: #000000;
+  padding: 0 50px;
 }
 
 .AkademiyaTeaxt img {
-    width: 100%;
-    margin-top: 70px;
+  width: 100%;
+  margin-top: 70px;
+  padding: 0 50px;
 }
 
 .AkademiyaTeaxt h4 {
-    margin-top: 70px;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 40px;
+  margin-top: 30px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
 
-    color: #000000;
+  color: #000000;
+  padding: 0 50px;
 }
 
 .AkademiyaTeaxt h6 {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    margin-top: 25px;
-    color: #000000;
-
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 25px;
+  color: #000000;
+  padding: 0 50px;
 }
-@media(min-width:0) and (max-width:770.9px){
-    .AkademiyaTeaxt {
-        padding: 0 15px;
-        margin-top: 30px;
-    }
-    .AkademiyaTeaxt p {
-        font-size: 18px;
-        text-align: center;
-    }
-    .AkademiyaTeaxt h4 {
-        margin-top: 50px;
-        text-align: center;
-        font-size: 24px;
-    }
-    .AkademiyaTeaxt h2 {
-        text-align: center;
-        font-size: 22px;
-    }
-    .AkademiyaTeaxt h3 {
-        font-size: 19px;
-        margin-top: 20px;
-        text-align: center;
-    }
-    .AkademiyaTeaxt h6 {
-        text-align: center;
-        font-size: 18px;
-        margin-top: 20px;
-    
-    }
+.Academy {
+  margin: 0 40px;
+}
+@media (min-width: 0) and (max-width: 770.9px) {
+  .AkademiyaTeaxt {
+    margin-top: 30px;
+  }
+
+  .Academy{
+    margin: 50px 15px;
+  }
+
+  .AkademiyaTeaxt img{
+    padding: 0 15px;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  .AkademiyaTeaxt p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 15px;
+  }
+  .AkademiyaTeaxt h4 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    padding: 0 15px;
+  }
+  .AkademiyaTeaxt h2 {
+    text-align: center;
+    font-size: 22px;
+    padding: 0 15px;
+  }
+  .AkademiyaTeaxt h3 {
+    font-size: 19px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 15px;
+  }
+  .AkademiyaTeaxt h6 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0 15px;
+  }
 }
