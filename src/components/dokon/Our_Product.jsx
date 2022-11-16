@@ -4,7 +4,7 @@ import "./Our_Product.css"
 import style from "./Our_Product.module.css"
 export const OurProduct = ({ myMap }) => {
     const map2 = myMap.map(a =>
-        <Link to={`/store/${a.id}`} className="card">
+        <Link to={`/store/${a.id}`} key={a.id} className="card">
             <div  key={a.id}>
                 <div className="content">
                     <p className="copy">{a.title}</p>
