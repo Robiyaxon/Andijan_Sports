@@ -41,7 +41,7 @@
   animation: move linear 2000ms infinite;
 
   color: #ffffff;
-  background-image: url(../../assets/images/home_title_bg.png);
+  background-image: url(../../assets/images/home_title_bg.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 10px 10px 10px 15px;
@@ -171,7 +171,7 @@
 
 /* --------------------statistic-------------------- */
 .statistic {
-  background-image: url(../../assets/images/bg_statistic.png);
+  background-image: url(../../assets/images/bg_statistic.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;

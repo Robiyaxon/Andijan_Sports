@@ -1,6 +1,6 @@
 import React from 'react'
 
-import teacher from '../../assets/images/academy_teacher.png'
+import teacher from '../../assets/images/academy_teacher.webp'
 
 import styles from './Academy.module.css'
 

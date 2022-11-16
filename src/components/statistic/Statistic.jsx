@@ -1,6 +1,6 @@
 import React from 'react'
 
-import liga from '../../assets/images/home_liga.png'
+import liga from '../../assets/images/home_liga.webp'
 
 import { Statistic } from './../home/Home'
 
