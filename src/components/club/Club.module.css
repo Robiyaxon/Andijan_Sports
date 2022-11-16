@@ -5,7 +5,7 @@
 }
 
 .head {
-  background-image: url(../../assets/images/club_header_bg.png);
+  background-image: url(../../assets/images/club_header_bg.webp);
 
   height: 100vh;
   display: flex;
@@ -25,7 +25,7 @@
 }
 
 .main {
-  background-image: url(../../assets/images/club_main_bg.png);
+  background-image: url(../../assets/images/club_main_bg.webp);
   backdrop-filter: blur(10px);
   height: 100vh;
   padding: 100px 0;

@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './AkademiyaTeaxt.module.css'
-import img1 from '../../assets/akademiya1.png'
-import img2 from '../../assets/akademiya2.png'
+import img1 from '../../assets/akademiya1.webp'
+import img2 from '../../assets/akademiya2.webp'
 import Academy from '../home/Academy'
 export const AkademiyaTeaxt = () => {
   return (

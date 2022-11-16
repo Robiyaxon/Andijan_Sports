@@ -1,11 +1,11 @@
 import andijan_club from '../../assets/images/home_andijan_club.webp'
-import bunyodkor_club from '../../assets/images/home_bunyodkor_club.png'
-import liga from '../../assets/images/home_liga.png'
-import bg1 from '../../assets/images/home_bg.png'
-import bg2 from '../../assets/akademiya.png'
-import bg3 from '../../assets/akademiya1.png'
-import club_logo from '../../assets/images/logo.png'
-import club2_logo from '../../assets/images/aral_samali.png'
+import bunyodkor_club from '../../assets/images/home_bunyodkor_club.webp'
+import liga from '../../assets/images/home_liga.webp'
+import bg1 from '../../assets/images/home_bg.webp'
+import bg2 from '../../assets/akademiya.webp'
+import bg3 from '../../assets/akademiya1.webp'
+import club_logo from '../../assets/images/logo.webp'
+import club2_logo from '../../assets/images/aral_samali.webp'
 
 import styles from './Home.module.css'
 

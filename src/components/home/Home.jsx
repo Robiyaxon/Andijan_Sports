@@ -1,8 +1,8 @@
 import React from 'react'
 import { Carousel } from 'antd'
 
-import andijan_club from '../../assets/images/home_andijan_club.png'
-import bunyodkor_club from '../../assets/images/home_bunyodkor_club.png'
+import andijan_club from '../../assets/images/home_andijan_club.webp'
+import bunyodkor_club from '../../assets/images/home_bunyodkor_club.webp'
 import DokonCarousel from './../dokon/DokonCarousel'
 import Academy from './Academy'
 

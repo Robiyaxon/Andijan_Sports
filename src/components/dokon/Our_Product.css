@@ -106,7 +106,7 @@
     background-image: url("../../assets/product6.webp");
 }
 .card:nth-child(12):before {
-    background-image: url("../../assets/product8.png");
+    background-image: url("../../assets/product8.webp");
 }
 
 .content {

@@ -11,8 +11,8 @@ import {
 import { Layout, Menu } from 'antd'
 import { NavLink } from 'react-router-dom'
 
-import img from '../../assets/images/sidebar_bg.png'
-import logo from '../../assets/images/logo.png'
+import img from '../../assets/images/sidebar_bg.webp'
+import logo from '../../assets/images/logo.webp'
 
 import MyRoute from '../../MyRoute'
 

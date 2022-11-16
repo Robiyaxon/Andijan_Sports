@@ -1,5 +1,5 @@
 .wrap {
-  background-image: url(../../assets/images/statistic_tv.png);
+  background-image: url(../../assets/images/statistic_tv.webp);
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
@@ -38,7 +38,7 @@
 }
 
 .main {
-  background-image: url(../../assets/images/statistic_liga.png);
+  background-image: url(../../assets/images/statistic_liga.webp);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 40px;
