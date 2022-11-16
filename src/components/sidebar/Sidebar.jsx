@@ -4,7 +4,9 @@ import {
   DesktopOutlined,
   HomeOutlined,
   TeamOutlined,
-  UserOutlined,
+  BookOutlined,
+  LineChartOutlined,
+  ShoppingOutlined
 } from '@ant-design/icons'
 import { Layout, Menu } from 'antd'
 import { NavLink } from 'react-router-dom'
@@ -90,9 +92,14 @@ const { Content, Sider } = Layout
 const items = [
   { label: 'Bosh sahifa', key: '1', icon: <HomeOutlined />, url: '/' },
   { label: 'Media', key: '2', icon: <DesktopOutlined />, url: 'media' },
-  { label: 'Yangiliklar', key: '3', icon: <UserOutlined />, url: 'news' },
-  { label: 'Do’kon', key: '4', icon: <TeamOutlined />, url: 'store' },
-  { label: 'Statistika', key: '5', icon: <TeamOutlined />, url: 'statistic' },
+  { label: 'Yangiliklar', key: '3', icon: <BookOutlined />, url: 'news' },
+  { label: 'Do’kon', key: '4', icon: <ShoppingOutlined />, url: 'store' },
+  {
+    label: 'Statistika',
+    key: '5',
+    icon: <LineChartOutlined />,
+    url: 'statistic',
+  },
   { label: 'Akademiya', key: '6', icon: <TeamOutlined />, url: 'academy' },
 ]
 
